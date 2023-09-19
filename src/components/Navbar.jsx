@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header class="absolute left-0 top-0 right-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-transparent border-b text-sm py-3 sm:py-0">
+    <header class="absolute md:max-w-2xl lg:max-w-4xl mx-auto left-0 top-0 right-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-transparent  border-b border-b-mainGold md:border-b-0 text-sm py-3 md:py-5 sm:py-0">
       <nav
         class="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
         aria-label="Global"
@@ -24,7 +24,7 @@ const Navbar = () => {
               aria-label="Toggle navigation"
             >
               <svg
-                class="hs-collapse-open:hidden w-4 h-4"
+                class="hs-collapse-open:hidden w-4 h-4 text-mainGold"
                 width="16"
                 height="16"
                 fill="currentColor"
@@ -36,7 +36,7 @@ const Navbar = () => {
                 />
               </svg>
               <svg
-                class="hs-collapse-open:block hidden w-4 h-4"
+                class="hs-collapse-open:block hidden text-mainGold w-4 h-4"
                 width="16"
                 height="16"
                 fill="currentColor"
@@ -78,7 +78,7 @@ const Navbar = () => {
               Blog
             </a>
 
-            <button className="bg-mainGold hover:bg-white hover:text-mainGold inline-block py-3 px-3  font-semibold">
+            <button className="bg-mainGold text-white inline-block py-3 px-3  font-semibold">
               Get In Touch
             </button>
           </div>
@@ -89,42 +89,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-/**
- <div className="bg-transparent absolute left-0 top-0 right-0">
-      <div className="flex justify-between items-center max-w-[100rem] py-5">
-        <div>
-          <h1 className="text-5xl ml-24 text-[#E3CCAE] font-bold">BKIR</h1>
-        </div>
-        <div className="flex gap-x-10">
-
-          <div className="flex items-center gap-x-5">
-        
-            <p className="text-white font-semibold hover:text-[#E3CCAE]">
-              About Us
-            </p>
-            <p className="text-white font-semibold hover:text-[#E3CCAE]">
-              Services
-            </p>
-            <p className="text-white font-semibold hover:text-[#E3CCAE]">
-              Testimony
-            </p>
-            <p className="text-white font-semibold hover:text-[#E3CCAE]">
-              Contact Us
-            </p>
-            <p className="text-white font-semibold hover:text-[#E3CCAE]">
-              FAQS
-            </p>
-          </div>
-          {/
-          <div>
-            <button className="bg-[#E3CCAE] hover:bg-white hover:text-[#E3CCAE] inline-block py-3 px-3  font-semibold">
-              Get In Touch
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
- */
-/**
- 
- */
